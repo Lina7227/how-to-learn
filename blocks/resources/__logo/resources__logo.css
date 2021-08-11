@@ -1,31 +1,20 @@
 .resources__logo {
   margin: 0;
-  background-repeat: no-repeat;
-  background-size: 270px 38px;
+  width: 270px;
+  height: 38px;
+  list-style-type: none;
+  transition: 2s;
+}
+
+.resources__logo:hover {
+  opacity: 0.4;
+}
+
+img {
   width: 270px;
   height: 38px;
 }
 
-.resources__logo:nth-of-type(1) {
-  background-image: url("../../../images/resources-arzamas.svg");
-}
-
-.resources__logo:nth-of-type(2) {
-  background-image: url("../../../images/resources-n1.svg");
-}
-
-.resources__logo:nth-of-type(3) {
-  background-image: url("../../../images/resources-strelka.svg");
-}
-
-.resources__logo:nth-of-type(4) {
-  background-image: url("../../../images/resources-polka.svg");
-}
-
-.resources__logo:hover {
-  opacity: 0.5;
-  transform: linear 6s;
-}
-
+/* Задаю размер img т.к. иначе картинки меньше блока */
 
 
